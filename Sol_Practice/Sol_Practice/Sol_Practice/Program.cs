@@ -34,6 +34,18 @@ namespace Sol_Practice
         {
             ChildClass child = new ChildClass();
             child.print();
+
+            int i = 1;
+            
+            for (i = 1; i <= 100; i++)
+            {
+                if (i % 3 == 0)
+                    Console.WriteLine(i + " fizz");
+                if (i % 5 == 0)
+                    Console.WriteLine(i + " buzz");
+                if (i % 3 == 0 && i % 5 == 0)
+                    Console.WriteLine(i + " fizz buzz");
+            }
         }
     }
 }
