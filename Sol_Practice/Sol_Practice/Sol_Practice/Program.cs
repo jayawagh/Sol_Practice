@@ -28,7 +28,7 @@ namespace Sol_Practice
     {
         public ChildClass() 
         {
-            Console.WriteLine("Child Constructor.");
+            Console.WriteLine("Child Constructor..");
         }
         public static void Main()
         {
